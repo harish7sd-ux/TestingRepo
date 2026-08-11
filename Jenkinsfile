@@ -22,7 +22,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'echo "Build completed successfully"'
+                sh 'echo "Build completed successfully - Updated"'
             }
         }
     }
